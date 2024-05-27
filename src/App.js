@@ -31,7 +31,17 @@ function App() {
         toolbarClassName="toolbar-class"
       />
 
-    <button className="btn btn-success btn-large" onClick={()=>console.log(convertToHTML(editorState.getCurrentContent()))}>Show Content</button>
+      <div className="row mt-4">
+        <div className="col-12" style={{paddingLeft:30}}>
+          <h2>HTML Output</h2>
+        </div>
+        <div className='row'>
+          <div className='col-12 mt-2' style={{paddingLeft:30}}>
+            <span className='text-left'>{convertToHTML(editorState.getCurrentContent())}</span>
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 }
