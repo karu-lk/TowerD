@@ -2,7 +2,7 @@
 
 ## A demo of a rich-text editor in a React project
 
-## What's your favourite coffee?
+### This is how it looks like
 ![Alt text](/public/home-page.png?raw=true "Tower D")
 
 ### Tech Stack
